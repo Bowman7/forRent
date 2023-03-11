@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>forRent</title>
+    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+</head>
+<body>
+<!-- navbarr -->
+    <nav class="relative container mx-auto shadow-xl">
+        <!-- flex container -->
+        <div class="flex justify-between items-center">
+            <!-- logo -->
+            <div class="pt-2 m-x-5">
+                <img src="img/new.svg" alt="">
+
+            </div>
+            <!-- menu items -->
+            <div class="hidden md:flex space-x-6 ">
+                <a href="#" class="hover:text-darkBlue">Pricings</a>
+                <a href="#" class="hover:text-darkBlue">List Property</a>
+                <a href="#" class="hover:text-darkBlue">Search Property</a>
+                <a href="#" class="hover:text-darkBlue">Pay Rent</a>
+                <a href="#" class="hover:text-darkBlue">Contact Us</a>
+            </div>
+        </div>
+
+    </nav>
+    <!-- section 1 -->
+    <section id="hero">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 ">
+            <!-- left item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2 ">
+                <h1 class="max-w-md text-4xl font-bold text-left md:text-5xl md:text-left ">
+                    Find the place that's just right for you 
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left text-2xl">
+                    A place that you can call home,find it on forRent.
+                </p>
+
+            </div>
+            <!-- right items -->
+            <div class="md:w-1/2">
+                <img src="img/building.svg" alt="">
+
+            </div>
+        </div>
+
+        
+    <!-- image section -->
+    <section id="images">
+        <div class="relative" data-te-carousel-init data-te-carousel-slide>
+            <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                data-te-carousel-item
+                data-te-carousel-active>
+                <img src="img/house1.jpg" class="block w-full" alt="house 1">
+
+                </div>
+                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                data-te-carousel>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+<!-- Cta section -->
+<section id="cta " class="bg-teal-800">
+    <!-- flex caontainer -->
+    <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12  md:py-12 md:flex-row md:space-y-0">
+        <h2 class="text-5xl font-bold leading-tight text-center  text-white md:text-4xl md:max-w--xl md:text-left">
+            Easy the process of searching. 
+        </h2>
+        <!-- button
+         <div>
+             <a href="#" class="p-3 px-6 pt-2 text-white bg-teal-600 rounded-full baseline hover:bg-teal-400">Search</a>
+        </div> -->
+    </div>
+    <!-- footer -->
+    <footer class="bg-teal-900 flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0 ">
+         <!--logo and social links  -->
+         <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+            <!-- logo -->
+            <div>
+                <img src="img/new.svg"  class="h-8" alt="">
+            </div>
+            <!-- social links -->
+            <div class="flex justify-center space-x-4">
+                <!-- link1  -->
+                <a href="#">
+                    <img src="img/icon-facebook.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-instagram.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-pinterest.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-youtube.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/icon-twitter.svg" alt="">
+                </a>
+            </div>
+         </div>
+         <!-- list container -->
+         <div class="flex justify-around space-x-32">
+            <div class="flex flex-col text-white space-y-3">
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Contact</a>
+                <a href="#">Find</a>
+            </div>
+    </div>
+    <!-- input container -->
+    <div class="flex flex-col justify-between ">
+        <form >
+            <div class="flex space-x-3 ">
+                <input type="text" class="flex-1 px-4 rounded-full focus:outine-none" placeholder="Search now ">
+                <button class="px-6 py-2 text-white rounded-full bg-teal-500 hover:bg-teal-300 focus:outline-none">Find</button>
+            </div>
+        </form>
+    </div>
+    </footer>
+</body>
+</html>
